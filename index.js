@@ -5,7 +5,14 @@ let bankBranchInstance;
 
 // 2. Define a class called `BankBranch` for managing branch information.
 class BankBranch {
-    constructor(bankInfo){}
+    constructor(bankInfo){
+        if(bankBranchInstance === ""){
+            bankBranchInstance === bankInfo
+            return bankBranchInstance
+        } else (
+            console.log("null")
+        )
+    }
 };
 
 // 3. In the `BankBranch` class:
