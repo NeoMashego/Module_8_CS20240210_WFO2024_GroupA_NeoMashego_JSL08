@@ -15,6 +15,13 @@ class BankBranch {
     }
 };
 
+//Usage
+const branchA = '';
+const branchB = '';
+
+//Check point
+console.log(branchA === branchB);
+
 // 3. In the `BankBranch` class:
 //    - Create a constructor that takes `branchInfo` as a parameter.
 //    - Inside the constructor, check if the `bankBranchInstance` variable is null (indicating no instance exists).
