@@ -17,7 +17,9 @@ class BankBranch {
 
 //Usage
 const branchA = new BankBranch({name: 'Harrison', location: 'Far away'});
+console.log(branchA);
 const branchB = new BankBranch({name: 'Tally', location: 'Closer'});
+console.log(branchB);
 
 //Check point
 console.log(branchA === branchB);
