@@ -16,8 +16,8 @@ class BankBranch {
 };
 
 //Usage
-const branchA = '';
-const branchB = '';
+const branchA = new BankBranch({name: 'Harrison', location: 'Far away'});
+const branchB = new BankBranch({name: 'Tally', location: 'Closer'});
 
 //Check point
 console.log(branchA === branchB);
